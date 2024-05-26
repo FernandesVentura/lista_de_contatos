@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista telefônica</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="bloco">
+            <header>
+                <h1>Lista telefônica</h1>
+                <h3>2024</h3>
+            </header>
+            <form id="form-lista">
+                <input id="nome-contato" type="text" required placeholder="Nome do contacto" />
+                <input  id="numero-contato" type="tel" required placeholder="Número de telemóvel" />
+                <button type="submit">+</button>
+            </form>
+            <table >
+                <thead>
+                    <tr>
+                        <th>Nome</th>
+                        <th>Número</th>
+                        <th>Ações</th>
+                    </tr>
+                </thead>
+                <tbody id="tabela-contatos">
+                    <tr>
+                        <td>---</td>
+                        <td>---</td>
+                        <td>---</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>

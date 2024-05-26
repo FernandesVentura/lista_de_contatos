@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.bloco {
+    background-color:rgb(36, 107, 178);
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    margin-top: 150px;
+    border-radius: 20px;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 500px;
+    width: 100%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-weight: bold;
+}
+
+form {
+    display: flex;
+    justify-content: space-between;
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+}
+
+form input {
+    font-size: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    margin-right: 10px;
+}
+
+form button {
+    font-weight: bolder;
+    border: none;
+    padding: 5px 10px;
+    background-color: rgb(101, 180, 180);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: rgb(85, 131, 131);
+}
+
+table{
+    border-spacing: 0px;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table td {
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 5px;
+}
+
+.btn-excluir {
+    background-color: red;
+    padding: 4px 9px;
+    border: none;
+    color: #fff;
+    border-radius: 7px;
+    cursor: pointer;
+    font-weight: bolder;
+    margin-left: 5px;
+}
+
+table td span:hover {
+    background-color: rgb(126, 18, 18);
+}
+
+tbody .conteudo-acoes {
+    display: flex;
+    justify-content: center;
+}
+
+table th {
+    border-bottom: 2px solid #000;
+    font-weight: bold;
+    padding: 5px ;
+    font-size: 18px;
+}
+
+table img {
+    height: 25px;
+}
+
+table img:hover {
+    cursor: pointer;
+}
+
